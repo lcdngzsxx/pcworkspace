@@ -28,12 +28,18 @@
 #
 # operation.get ( 'delete') ( 10 )
 
+#单星号,接受的是tuple
+# def avg(*socres):
+#     return sum(socres)/len(socres)
+#
+# s = (88,89,90)
+#
+# result = avg(s)
+#
+# print(result)
 
-def avg(*socres):
-    return sum(socres)/len(socres)
+#双星号,接受的是dict
+def dis_emp(**emp):
+    print(emp)
 
-s = (88,89,90)
-
-result = avg(s)
-
-print(result)
+dis_emp(name='Cat',age='18',jon='dev',depart='devp')
