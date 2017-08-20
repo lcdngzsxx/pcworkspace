@@ -24,19 +24,37 @@
 #     print('未找到')
 
 
-emp = {
-    'name':'Cat',
-    'department':'technoloty',
-    'job':'development',
-    'salart':1000.00
-}
+# emp = {
+#     'name':'Cat',
+#     'department':'technoloty',
+#     'job':'development',
+#     'salart':1000.00
+# }
+#
+# for key in emp:
+#     print('{}=>{}'.format(key,emp.get(key)))
+#
+# for value in emp.values():
+#     print(value)
+#
+# print(type(emp))
+# print(emp)
+# print(type(emp.values()))
 
-for key in emp:
-    print('{}=>{}'.format(key,emp.get(key)))
+def hello_chinese(name):
+    print('你好',name)
 
-for value in emp.values():
-    print(value)
+def hello_eglish(name):
+    print('hello',name)
 
-print(type(emp))
-print(emp)
-print(type(emp.values()))
+def hello_canadel(name):
+    print('xxxx',name)
+
+#委托,比较绕,将函数作为参数传递给方法
+def hello(action,name):
+    action(name)
+
+hello(hello_chinese,'来了')
+hello(hello_eglish,'来了')
+hello(hello_canadel,'来了')
+hello(lambda name:print('韩文',name),'来了')

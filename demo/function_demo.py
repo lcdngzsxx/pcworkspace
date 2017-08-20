@@ -38,8 +38,17 @@
 #
 # print(result)
 
-#双星号,接受的是dict
-def dis_emp(**emp):
-    print(emp)
+# #双星号,接受的是dict
+# def dis_emp(**emp):
+#     print(emp)
+#
+# dis_emp(name='Cat',age='18',jon='dev',depart='devp')
 
-dis_emp(name='Cat',age='18',jon='dev',depart='devp')
+def hello(name):
+    print(name)
+#lambda是表达式 = def hello,只用一次
+#匿名函数
+f = lambda name: print(name)
+f2 = lambda x,y: x+y
+f('tom')
+print(f2(1,2))
