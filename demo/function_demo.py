@@ -28,7 +28,7 @@
 #
 # operation.get ( 'delete') ( 10 )
 
-#单星号,接受的是tuple
+# 单星号,接受的是tuple
 # def avg(*socres):
 #     return sum(socres)/len(socres)
 #
@@ -46,9 +46,11 @@
 
 def hello(name):
     print(name)
-#lambda是表达式 = def hello,只用一次
-#匿名函数
+
+
+# lambda是表达式 = def hello,只用一次
+# 匿名函数
 f = lambda name: print(name)
-f2 = lambda x,y: x+y
+f2 = lambda x , y: x + y
 f('tom')
-print(f2(1,2))
+print(f2(1 , 2))

@@ -1,16 +1,19 @@
-import  datetime
+import datetime
+
 
 class User:
-    def __init__(self,name,birthday):
+    def __init__(self , name , birthday):
         self.name = name
         self.birthday = birthday
 
     @property
     def age(self):
         return datetime.date.today().year - self.birthday.year
+
     @age.setter
-    def age(self,value):
+    def age(self , value):
         raise AttributeError('禁止赋值年龄!')
+
     @age.deleter
     def age(self):
         raise AttributeError('不能删除年龄')

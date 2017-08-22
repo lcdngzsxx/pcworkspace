@@ -6,8 +6,8 @@
 # f.close()
 
 
-f = open('demo.text','r',encoding='utf-8')
+f = open('demo.text' , 'r' , encoding='utf-8')
 for line in f:
-    print(line,end=' ')
-# print(f.__next__())
-# print(next(f))
+    print(line , end=' ')
+    # print(f.__next__())
+    # print(next(f))

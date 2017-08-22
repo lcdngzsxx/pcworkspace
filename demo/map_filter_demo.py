@@ -1,4 +1,4 @@
-l = list ( range ( 1 , 11 ) )
+l = list(range(1 , 11))
 
 
 #
@@ -16,13 +16,13 @@ l = list ( range ( 1 , 11 ) )
 # res = list(map(lambda n:n+5,l))
 # print(res)
 
-def even_number (x):
+def even_number(x):
     return x % 2 == 0
 
 
 # res = filter(even_number,l)
-res = filter ( lambda n: n % 2 == 0 , l )
-print ( res )
+res = filter(lambda n: n % 2 == 0 , l)
+print(res)
 
 for n in res:
-    print ( n , end=',' )
+    print(n , end=',')

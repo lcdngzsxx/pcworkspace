@@ -30,6 +30,7 @@
 #     f.close()
 
 def method():
-    raise NotImplementedError('该方法代码没有实现')# 手动抛出异常
+    raise NotImplementedError('该方法代码没有实现')  # 手动抛出异常
+
 
 method()

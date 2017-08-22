@@ -11,13 +11,12 @@ if score >= 60:
     result = '及格'
 else:
     result = '不及格'
-    
-#类似JAVA中的 ? ....:.....
+
+# 类似JAVA中的 ? ....:.....
 # Int A,B,C;
 # A=2;
 # B=3;
 # C=A>B ? 100 :200;
-resultl = '及格' if score>=60 else '不及格'
+resultl = '及格' if score >= 60 else '不及格'
 print(result)
 print(resultl)
-
