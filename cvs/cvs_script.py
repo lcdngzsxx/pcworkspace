@@ -17,7 +17,7 @@ def cvs_read():
 #     with open('city.csv',encoding='utf-8') as f:
 #         reader = csv.reader(f)
 #         header = next(reader)
-#         Row = namedtuple('Row',header)
+#         Row = namedtuple('Row', header)
 
 def cvs_read_by_dict():
     '''read into dict'''
