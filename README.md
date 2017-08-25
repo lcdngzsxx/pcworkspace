@@ -18,3 +18,4 @@
 > Return the “identity” of an object. This is an integer (or long integer) which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same id() value.
 > CPython implementation detail: This is the address of the object in memory.
 ### is 和 == 的 对比
++ 测试fork 同步 sync
