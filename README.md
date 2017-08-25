@@ -19,3 +19,4 @@
 > CPython implementation detail: This is the address of the object in memory.
 ### is 和 == 的 对比
 + 测试fork 同步 sync
++ master写入
